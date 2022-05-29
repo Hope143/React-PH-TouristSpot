@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-PH-TouristSpot/static/css/main.f0a17b29.css",
+    "main.js": "/React-PH-TouristSpot/static/js/main.b6053297.js",
+    "static/media/beach.mp4": "/React-PH-TouristSpot/static/media/beach.997d4a76fc112f35d139.mp4",
+    "static/media/Mindoro.jpg": "/React-PH-TouristSpot/static/media/Mindoro.bb30e1c083743d64e4ff.jpg",
+    "static/media/Bohol.jpg": "/React-PH-TouristSpot/static/media/Bohol.594ac8f047c3c67a65ad.jpg",
+    "static/media/Ifugao.jpg": "/React-PH-TouristSpot/static/media/Ifugao.58a680602e64f7e8e1a2.jpg",
+    "static/media/Albay.jpg": "/React-PH-TouristSpot/static/media/Albay.18f3d678ed344d1b7e7e.jpg",
+    "static/media/Boracay.jpg": "/React-PH-TouristSpot/static/media/Boracay.ddc7a540ababa9d48020.jpg",
+    "static/media/Cebu.jpg": "/React-PH-TouristSpot/static/media/Cebu.55e5db810f5bd64ce79f.jpg",
+    "static/media/Sagada.jpg": "/React-PH-TouristSpot/static/media/Sagada.30077bcf4c615d5cc638.jpg",
+    "static/media/Palawan.jpg": "/React-PH-TouristSpot/static/media/Palawan.82604e14c2c77e431aad.jpg",
+    "index.html": "/React-PH-TouristSpot/index.html",
+    "main.f0a17b29.css.map": "/React-PH-TouristSpot/static/css/main.f0a17b29.css.map",
+    "main.b6053297.js.map": "/React-PH-TouristSpot/static/js/main.b6053297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0a17b29.css",
+    "static/js/main.b6053297.js"
+  ]
+}
