@@ -1,0 +1,47 @@
+import React, {useRef} from 'react';
+import { useUserContext } from './userContext';
+import { Redirect } from 'react-router-dom';
+
+const SignIn = ({user}) => {
+
+     const emailSignInRef = useRef();
+     const passwordSignInRef = useRef();
+
+     const { signInUser, forgotPassword } = useUserContext();
+
+     const onSubmitSignIn = (e) => {
+          e.preventDefault();
+          const email = emailSignInRef.current.value;
+          const password = passwordSignInRef.current.value;
+          if(email && password) signInUser(email, password)
+     }
+
+     const forgotPasswordHandler = () => {
+          const emailSignIn = emailSignInRef.current.value;
+          if(emailSignIn) forgotPassword(emailSignIn).then(() => emailSignInRef.current.value = '')
+     }
+
+     if(user) return <Redirect to='/alumni' />
+
+     return (
+          <div className='container'>
+               <form className='white' onSubmit={onSubmitSignIn}>
+                    <h5 className='grey-text text-darken-3'>Alumni Sign In</h5>
+                    <div className='input-field'>
+                         <label htmlFor="email">Email</label>
+                         <input type="email" id="email" ref={emailSignInRef} autoComplete='off'  />
+                    </div>
+                    <div className='input-field'>
+                         <label htmlFor="password">Password</label>
+                         <input type="password" id="password" ref={passwordSignInRef} />
+                    </div>
+                    <div className='input-field'>
+                         <button className='btn pink lighten-1 z-depth-0'>LOGIN</button>
+                         <p onClick={forgotPasswordHandler}>Forgot Password?</p>
+                    </div>
+               </form>
+          </div>
+     )
+}
+
+export default SignIn;

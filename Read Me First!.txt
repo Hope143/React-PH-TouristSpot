@@ -1,0 +1,12 @@
+++++++++++++++++++++++
+Author: Oprekin
+Web: https://oprekin.com
+++++++++++++++++++++++
+
+- All Windows modification releases are only available for 64bit versions.
+- Especially for Windows 10, the update build is preferred only for the LTSB/C version and the latest version of Windows 10 Pro.
+- All windows modification releases have not been activated.
+- All my windows modification for advanced user only, dont expect all feature or function will working as normal, you should know what “lite” mean.
+- My modification not what you expected? simple don’t use it.
+- Want a modified version that suits your needs? show your support by send a donation.
+- I use my free time for build a modification, so dont expect some bug fixed immediately.

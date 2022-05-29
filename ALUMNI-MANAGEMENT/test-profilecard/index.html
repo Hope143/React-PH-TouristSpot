@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+
+<head>
+     <meta charset="utf-8">
+     <title>Profile Card Hover Animation | CodingNepal</title>
+     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+     <div class="containerApproval">
+          <div class="wrapperApproval">
+               <a href="#">
+                    <img src="#" alt="">
+               </a>
+               <div class="titleApproval">
+                    Andrew Neil
+               </div>
+               <div class="placeApproval">
+                    Surkhet, Nepal
+               </div>
+          </div>
+          <div class="contentApproval">
+               <p>
+                    User Interface Designer and <br>front-end developer
+               </p>
+               <div class="buttonsApproval">
+                    <div class="btnApproval">
+                         <button>Message</button>
+                    </div>
+                    <div class="btnApproval">
+                         <button>Following</button>
+                    </div>
+               </div>
+          </div>
+          <div class="iconsApproval">
+               <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+               <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+               <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+          </div>
+     </div>
+     <script>
+          const img = document.querySelector("img");
+          const icons = document.querySelector(".icons");
+          img.onclick = function () {
+               this.classList.toggle("active");
+               icons.classList.toggle("active");
+          }
+     </script>
+</body>
+
+</html>

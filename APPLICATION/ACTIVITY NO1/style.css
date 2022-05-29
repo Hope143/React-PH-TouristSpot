@@ -1,0 +1,23 @@
+* {
+  max-height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("School.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+span {
+  color: white;
+}

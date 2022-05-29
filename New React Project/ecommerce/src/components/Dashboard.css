@@ -1,0 +1,24 @@
+.moreHeight {
+  margin: auto;
+  width: 70%;
+  transform: scale(0.8);
+  overflow: visible;
+  height: 202px;
+}
+
+.lessHeight {
+  width: 100%;
+  height: 202px;
+}
+
+@media (max-width: 767px) {
+  .moreHeight,
+  .lessHeight {
+    height: auto;
+  }
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "fullName": "Victor Valdez Higoy Jr",
+      "age": "21",
+      "course": "Information Technology",
+      "yearGraduated": "2023",
+      "userId": "104052634635995217146",
+      "id": 1
+    },
+    {
+      "fullName": "john doe",
+      "age": "23",
+      "course": "business addmin",
+      "yearGraduated": "2023",
+      "userId": "104052634635995217146",
+      "id": 2
+    },
+    {
+      "userId": "104052634635995217146",
+      "id": 3
+    },
+    {
+      "fullName": "sdf",
+      "age": "dsf",
+      "course": "sdf",
+      "yearGraduated": "dsf",
+      "userId": "104052634635995217146",
+      "id": 4
+    }
+  ]
+}

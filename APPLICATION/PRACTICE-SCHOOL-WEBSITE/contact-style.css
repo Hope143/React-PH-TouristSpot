@@ -1,0 +1,54 @@
+.contact-section {
+     width: 80%;
+     margin: auto;
+     margin-top: 80px;
+
+}
+
+iframe {
+     width: 100%;
+     margin-bottom: 159px;
+}
+
+.contact-details-container {
+     margin-left: 77px;
+}
+
+.contact-details {
+     display: flex;
+     margin-bottom: 40px;
+}
+
+.fas, .far {
+     font-size: 28px;
+     margin: 10px 30px 10px 10px;
+}
+
+.helo {
+     font-size: 20px;
+}
+
+.details-info h5 {
+     font-size: 20px;
+     margin-bottom: 5px;
+     color: gray;
+     font-weight: 500;
+}
+
+.details-info p {
+     font-size: 14px;
+}
+
+.fillup {
+     margin-left: 77px;
+}
+
+.fillup input, textarea {
+     display: block;
+     border: 1px solid gray;
+     background-color: white;
+     width: 100%;
+     padding: 15px;
+     margin-bottom: 17px;
+}
+
