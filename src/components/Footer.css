@@ -1,0 +1,84 @@
+main {
+  min-height: 45vh;
+  background-color: #242424;
+}
+
+.main-wrap {
+  display: flex;
+  width: 70%;
+  min-height: 45vh;
+  justify-content: center;
+  margin: auto;
+  color: white;
+}
+
+.main-section {
+  flex-basis: 50%;
+  font-size: 1em;
+  align-content: center;
+  padding: 25px 0px;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.9em;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.inputStuff {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.email-info {
+  padding: 14px 55px 12px 15px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.birthday-info {
+  padding: 14px 40px 12px 15px;
+  margin-right: 10px;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: gray;
+  font-size: 0.9em;
+  text-align: left;
+}
+.signup-link {
+  text-decoration: none;
+}
+.sign-up {
+  margin: 20px 0;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px;
+  overflow: hidden;
+  max-width: 67.5%;
+  text-align: center;
+  transform: 0.3s ease;
+  border: 2px solid white;
+  color: white;
+}
+.sign-up:hover {
+  background-color: white;
+  color: black;
+}
+
+.details-lower {
+  width: 67.5%;
+  text-align: justify;
+}
